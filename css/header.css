@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    background-color: rgb(56, 56, 56);
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+    float: left;
+    flex-grow: 1;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.header a {
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(34, 34, 34);
+}
+
+#header-logo {
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 12px;
+    position: sticky;
+}
+
+#header-logo > .emphasis-purple {
+    color: blueviolet;
+}
+
+.account-info {
+    float: right;
+    position: sticky;
+}
+
+.material-icons {
+    color: white;
+}
